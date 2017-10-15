@@ -1,4 +1,13 @@
-﻿--Exercício 01: Resolva o problema da Zebra utilizando ADTs para representar as soluções. Para encontrar a resposta você deve enumerar todas as combinações até que encontre uma que atenda todas as restrições.
+﻿{-|
+Module      : Lista 5 - Exercícios sobre ADT
+Description : ADT em Haskell
+Copyright   : (c) Veruska Ayora, 2017
+License     : GPL-3
+Maintainer  : veruska.ayora@ufabc.edu.br
+Exercício 01: Resolva o problema da Zebra utilizando ADTs para representar as soluções. Para encontrar a resposta você deve enumerar todas as combinações até que encontre uma que atenda todas as restrições.
+-}
+
+
 
 import Data.List
 import Data.Maybe
@@ -191,3 +200,10 @@ main :: IO ()
 main=do 
 print (zip ["Casa 1-->", "Casa 2-->", "Casa 3-->", "Casa 4-->", "Casa 5-->"] (head solucaoParte2))
           
+
+
+
+
+
+
+  

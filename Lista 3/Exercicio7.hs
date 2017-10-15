@@ -1,4 +1,11 @@
-﻿--Exercício 07: Implemente uma função collatzLen x que retorna o tamanho da lista formada pela aplicação repetida de collatz sobre o valor x até que essa chegue no número 1.
+﻿{-|
+Module      : Lista 3 - Exercícios sobre Listas
+Description : Listas em Haskell
+Copyright   : (c) Veruska Ayora, 2017
+License     : GPL-3
+Maintainer  : veruska.ayora@ufabc.edu.br
+Exercício 07: Implemente uma função collatzLen x que retorna o tamanho da lista formada pela aplicação repetida de collatz sobre o valor x até que essa chegue no número 1.
+-}
 
 collatz:: Int->Int
 collatz n
@@ -16,3 +23,6 @@ collatzLen n = length (collatzSeq n)
     
 main=do
  print (collatzLen 5 )
+
+
+  

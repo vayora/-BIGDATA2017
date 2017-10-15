@@ -1,4 +1,11 @@
-﻿-- Exercício 02: Crie uma função tipoTriangulo que determina o tipo do triângulo formado pelos três lados x, y, z.
+﻿{-|
+Module      : Lista 2 - Exercícios sobre Funções
+Description : Funções em Haskell
+Copyright   : (c) Veruska Ayora, 2017
+License     : GPL-3
+Maintainer  : veruska.ayora@ufabc.edu.br
+Exercício 02: Crie uma função tipoTriangulo que determina o tipo do triângulo formado pelos três lados x, y, z.
+-}
 
 tipoTriangulo :: Int->Int->Int->String
 tipoTriangulo x y z
@@ -12,7 +19,6 @@ main = do
       
 
 
-
---Triângulo equilátero: possui os três lados com medidas iguais. 
---Triângulo isósceles: possui dois lados com medidas iguais. 
---Triângulo escaleno: possui os três lados com medidas diferentes. 
+      
+  
+  
